@@ -1,3 +1,4 @@
+*.DS_Store
 *.gem
 *.rbc
 /.config
@@ -9,6 +10,11 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+
+## Ignore all logfiles and tempfiles.
+/log/*
+!/log/.keep
+/tmp
 
 ## Specific to RubyMotion:
 .dat*
